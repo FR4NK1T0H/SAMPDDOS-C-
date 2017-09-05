@@ -4,6 +4,7 @@ In what it takes deficiency, it is in its checksum completely empty, and it does
 // Half of the code was extracted from an NTP amplification script 
 //(honestly I do not know its creator, but it's a public script under GNU licenses)
 
+
 #include <time.h>
 #include <pthread.h>
 #include <unistd.h>
