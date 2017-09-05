@@ -1,3 +1,4 @@
+#!BASH
 for (( i=0; i<100000; i++ ))
 do
 echo "84.$(($RANDOM%255)).$(($RANDOM%255)).$(($RANDOM%255))" >> $1.txt
