@@ -1,3 +1,8 @@
+/*
+RFlood envía paquetes UDP con el payload similar a los de los comandos RCON.
+Se utilizan contraseñas inválidas para enviar comandos reales, así hasta que el servidor se satura.
+Solo funciona en servidores con la rcon password activada.
+*/
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <netinet/ip.h>
